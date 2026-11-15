@@ -1,0 +1,79 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init -b main
+Initializes a new Git repository with main as the default branch.
+
+2. git status
+Displays the current branch and the status of project files.
+
+3. git add index.html about.html
+Stages the HTML files for the initial commit.
+
+4. git commit -m "Initial project setup"
+Creates the first commit containing the project files.
+
+5. git log --oneline
+Displays the commit history in a compact format.
+
+6. git diff
+Displays the changes made to tracked files.
+
+7. git add index.html
+Stages the modified homepage.
+
+8. git commit -m "Add services section to homepage"
+Records the homepage modification.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches to the feature branch.
+
+11. git branch
+Displays all local branches and identifies the current branch.
+
+12. git add about.html
+Stages the modified about page.
+
+13. git commit -m "Add mission section to about page"
+Records the changes made in the feature branch.
+
+14. git switch main
+Switches back to the main branch.
+
+15. git merge feature
+Merges the feature branch into the main branch.
+
+16. git log --oneline --graph --decorate --all
+Displays commit history along with branch information.
+
+17. git status --ignored
+Displays repository status, including ignored files.
+
+18. git add .gitignore
+Stages the .gitignore configuration file.
+
+19. git commit -m "Add gitignore configuration"
+Records the .gitignore configuration.
+
+20. git revert --no-edit HEAD
+Creates a new commit that reverses the latest commit.
+
+21. git remote add origin https://github.com/vamshikrishna7240-hub/git-assignment.git
+Connects the local repository to the GitHub remote repository.
+
+22. git branch -M main
+Renames the current branch to main.
+
+23. git push -u origin main
+Pushes the main branch to GitHub and sets its upstream tracking.
+
+24. git add git_commands.txt
+Stages the Git commands documentation file.
+
+25. git commit -m "Add Git commands documentation"
+Records the Git commands documentation in the repository.
+
+26. git push
+Pushes the latest committed changes to GitHub.
